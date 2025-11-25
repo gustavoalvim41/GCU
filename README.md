@@ -1,4 +1,4 @@
-# crypto-uniq-code
+# gcue
 
 Este script cria códigos únicos combinando:
 
