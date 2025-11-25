@@ -1,4 +1,4 @@
-# gcue
+# gcu
 
 Este script cria códigos únicos combinando:
 
