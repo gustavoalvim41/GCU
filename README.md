@@ -1,4 +1,4 @@
-# crypto-seq
+# crypto-uniq-code
 
 Este script cria códigos únicos combinando:
 
