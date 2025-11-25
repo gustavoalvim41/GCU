@@ -2,8 +2,8 @@
 
 Este script cria códigos únicos combinando:
 
-1. Um número sequencial 1,2,3 ... convertido para **Base36**  
-2. Um **HMAC** com chave secreta para garantir segurança e imprevisibilidade
+1. Número sequencial 1,2,3 ... convertido para Base36
+2. HMAC com chave secreta para garantir segurança e imprevisibilidade
 
 O resultado é um código curto de 10 chars, seguro e sem risco de repetição.
 
@@ -25,11 +25,6 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
-
-O script irá gerar 50 códigos de exemplo, exibindo:
-- Número sequencial  
-- Versão em Base36  
-- Primeiros caracteres do HMAC  
 
 --- -->
 
