@@ -19,11 +19,11 @@ def main():
     SEQUENTIAL_NUMBER=0 # This value should come from the database
     
     for i in range(51):
-        result_base36 = to_base36(SEQUENTIAL_NUMBER)
+        base36 = to_base36(SEQUENTIAL_NUMBER)
 
-        encrypted=hmac.new(SECRET_KEY,result_base36.encode('utf-8'),hashlib.sha256).hexdigest()
+        encrypted=hmac.new(SECRET_KEY,base36.encode('utf-8'),hashlib.sha256).hexdigest()
         
-        print(f"Decimal: {i:>6} | Base36: {result_base36:>6} | HMAC: {encrypted[:10]}")
+        print(f"Decimal: {i:>6} | Base36: {base36:>6} | HMAC: {encrypted[:10]}")
         
         SEQUENTIAL_NUMBER+=1
 
